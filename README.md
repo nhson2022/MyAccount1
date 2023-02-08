@@ -137,3 +137,27 @@ Devise.setup do |config|
 end
 ```
 
+**Create controller pages home and info**
+```hash
+rails g controller pages home info
+```
+
+## [Admin] Create Article
+Setup action text, active storage 
+https://guides.rubyonrails.org/active_storage_overview.html 
+https://guides.rubyonrails.org/action_text_overview.html
+
+**Setup Active Storage**
+```hash
+bin/rails active_storage:install
+bin/rails db:migrate
+```
+**Setup Action Text**
+```hash
+bin/rails action_text:install
+bin/rails db:migrate
+```
+**Setup model, pages**
+```hash
+rails g scaffold Article title active:boolean
+```
