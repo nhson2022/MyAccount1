@@ -162,7 +162,7 @@ bin/rails db:migrate
 rails g scaffold Article title active:boolean
 ```
 
-## Clone source
+## Clone source - How to run on local
 ```
 cd
 clone https://github.com/nhson2022/MyAccount1.git
