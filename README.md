@@ -161,3 +161,13 @@ bin/rails db:migrate
 ```hash
 rails g scaffold Article title active:boolean
 ```
+
+## Clone source
+```
+cd
+clone https://github.com/nhson2022/MyAccount1.git
+cd MyAccount1
+bundle install
+rails db:migrate
+rails s
+```
