@@ -1,0 +1,7 @@
+<p style="color: green"><%= notice %></p>
+<%= render @article %>
+<div>
+	<%= link_to "Edit this article", edit_admin_article_path(@article), class: 'btn btn-secondary mt-2' %> 
+	<%= link_to "Back to articles", admin_articles_path, class: 'btn btn-info mt-2' %>
+	<%= button_to "Destroy this article", admin_article_path(@article), method: :delete, class: 'btn btn-danger mt-2' %>
+</div>
