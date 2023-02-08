@@ -9,7 +9,7 @@
 				<% if user_signed_in? %>
 					<li><a href="<%= admin_articles_path %>" class="nav-link px-2 text-white">[Admin] Article</a></li>
 				<% end %>
-				<li><a href="#" class="nav-link px-2 text-white">Articles</a></li>
+				<li><a href="<%= list_articles_path %>" class="nav-link px-2 text-white">Articles</a></li>
 				<li><a href="#" class="nav-link px-2 text-white">About</a></li>
 			</ul>
 			<div class="text-end">

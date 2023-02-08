@@ -1,0 +1,7 @@
+<h1>Articles Listing</h1>
+<% @articles.each do |article| %>
+	<div class='py-4'>
+    <%= article.title %>
+    <a href='<%= detail_articles_path(article.id) %>'>Show more</a>
+    </div>
+<% end %>
